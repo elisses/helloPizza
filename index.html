@@ -7,13 +7,82 @@
 <body>
 	<header>
 		<h1>Hello Pizza</h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="http://www.devmedia.com.br" target="_blank">About</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
 	</header>
 	<section>
-		<h2>Sabores</h2>
-		<p>Conheça os nossos <strong>5 sabores</strong> de <em>pizza</em>!</p>
+		<ul>
+			<li>Quality</li>
+			<li>Taste</li>
+			<li>Practicality</li>
+			<li>Agility</li>
+		</ul>
 	</section>
 	<section>
-		<h2>Contato</h2>
+		<h2>Tastes</h2>
+		<p>Meet our <strong>5 tastes</strong> <em>pizza</em>!</p>
+		<img src="img/sabores-pizzas.png" alt="Fotos de Pizza de vários sabores">
+		<table border="1">
+			<tr>
+				<th>Taste</th>
+				<th>Cheese and Sause</th>
+				<th>Salad</th>
+				<th>meat</th>
+				<th>Olive Oil / Champignon</th>
+			</tr>
+			<tr>
+				<td>Mozzarella</td>
+				<td rowspan="6">Yes</td>
+				<td>No</td>
+				<td>No</td>
+				<td>No</td>
+			</tr>
+			 <tr>
+                    <td>Calabresa</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Pepperoni</td>
+                    <td>No</td>
+                    <td>yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Marguerite</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Portuguese</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>NO</td>
+                </tr>
+		</table>
+	</section>
+	<section>
+		<h2>Contact</h2>
+		<form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="post">
+			<label >Name:</label>
+			<input type="text" name= "name">
+			<label >E-mail:</label>
+			<input type="text" name= "email">
+			<label >Message:</label>
+			<textarea name="message"></textarea>
+			<input type="submit" value="Send">
+		</form>
 	</section>
 	<footer>
 		<p>Hello Pizza</p>
