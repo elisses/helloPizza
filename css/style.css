@@ -1,0 +1,140 @@
+body {
+	background-color: #131313;
+	background-image: url(../img/background-pizza.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	margin: 0;
+}
+#banner {
+	background-color: rgba(0,0,0,0.5);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+}
+#banner h1 {
+	float:left;
+	margin: 0;
+}	
+#banner nav { 
+	float: right;
+	position: relative;
+	top: 30px;
+}
+#banner nav ul {
+	margin: 0;
+}
+#banner nav ul li {
+	display: inline-block;
+	width: 100px;
+}
+#banner nav ul li a {
+	 color: #ffffff;
+	 text-decoration: none;
+	 text-transform: uppercase;	 
+	 font-weight: bold;
+	 font-family: "Helvetica Neue", sans-serif;
+}
+#text-desc ul {
+	list-style: none;
+}
+#text-desc ul .icon::before{
+	content: '';
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0px 18px;
+    background-image: url(../img/circulo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+}
+#text-desc {
+	margin: 0 auto;
+	width: 80%;
+}
+#text-desc ul li{
+	color: #fff;
+	font-size: 25px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 5px;
+}
+#meet-pizza h2 {
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 6;
+	text-shadow: 2px 2px 10px #060606;
+}
+#meet-pizza p {
+	text-align:center;
+}
+#meet-pizza table {
+	background-color: #2a2a2a;
+	margin: 0 auto;
+	width: 80%;
+	border-collapse: collapse;
+
+}
+#meet-pizza table td,
+#meet-pizza table th {
+	border: 1px #000 solid;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 25px;
+}
+#meet-pizza .text-negative {
+	color: #fb3958;
+}
+#meet-pizza .text-positive {
+	color: #87b50f;
+}
+#form {	
+	text-align: center;
+	border: 2px solid yellow;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 80%;
+}
+#form div{
+	border: 2px solid yellow;
+	border-radius: 5px;
+}
+#form h2 {
+
+	color: #fff;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+}
+#form form{
+	color: #fff;	
+}
+#copyright {
+	background-color: #131313;
+	padding: 55px 0px 10px 0px;
+}
+#copyright a {
+	display: block;
+	text-align: center;
+
+}
+#copyright p {	
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Helvetica Neue", sans-serif;
+}
+#meet-pizza {
+	padding-bottom: 60px;
+	margin-top: 300px;
+}
+
+
+
+
+
